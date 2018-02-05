@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  font-size: 28px;
+  line-height: 1.6em;
+  font-family: monospace;
+  font-family: "Orbitron", sans-serif;
+}
+
+#calc {
+  width: 10em;
+  margin: 0 auto;
+  background-color: rgba(255, 192, 204, 0.39);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin-top: 50px;
+}
+
+#output {
+  height: 2em;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.24);
+  text-align: right;
+  padding-right: 20px;
+}
+
+.row {
+  margin: 5px;
+}
+
+.key {
+  display: inline-block;
+  padding: 1%;
+  width: 20%;
+  height: 25%;
+  background-color: rgba(255, 192, 204, 0.596);
+  color: rgba(36, 21, 21, 0.829);
+  text-align: center;
+  padding-left: 5px;
+}
+
+.key:hover {
+  cursor: crosshair;
+  background-color: rgba(138, 119, 123, 0.596);
+}
+
+.bigKey {
+  width: 46%;
+  display: inline-table;
+}
+
+#memory {
+  padding-right: 5px;
+  font-size: 35%;
+  float: right;
+  color: black;
+  bottom: 0;
+}
+
+#hidden {
+	display: none;
+	visibility: hidden;
+}

@@ -22,7 +22,9 @@ function setMemory(value) {
   var memoryDiv = document.getElementById("memory");
   if (Number(value)) {
     memoryDiv.classList.remove("hidden");
-  } else memoryDiv.classList.add("hidden");
+  } else {
+    memoryDiv.classList.add("hidden")
+  };
 }
 
 var isResultShown = false;
